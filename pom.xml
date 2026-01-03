@@ -7,6 +7,8 @@
   <groupId>com.hakuna</groupId>
   <artifactId>apphakuna</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
+
 
   <name>apphakuna</name>
   <!-- FIXME change it to the project's website -->
@@ -29,10 +31,19 @@
     <groupId>org.webjars.npm</groupId>
     <artifactId>google__maps</artifactId>
     <version>0.3.1</version>
+	
+	<dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+
 </dependency>
   </dependencies>
 
   <build>
+  <finalName>apphakuna</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
