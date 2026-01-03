@@ -27,10 +27,12 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+	
 	<dependency>
     <groupId>org.webjars.npm</groupId>
     <artifactId>google__maps</artifactId>
     <version>0.3.1</version>
+	</dependency>
 	
 	<dependency>
       <groupId>javax.servlet</groupId>
@@ -38,8 +40,6 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
-
-</dependency>
   </dependencies>
 
   <build>
